@@ -2,7 +2,7 @@
 
 This folder contains all **TCL scripts used for RTL synthesis** using **Synopsys Design Compiler** as part of a complete **RTL → GDSII ASIC flow**.
 
-The scripts are written to be **modular, reproducible, and technology-agnostic**, with placeholders that can be easily adapted to different designs and PDKs.
+The scripts are written to be **modular and reproducible**, with placeholders that can be easily adapted to different designs and PDKs.
 
 ---
 
@@ -55,7 +55,7 @@ The scripts are written to be **modular, reproducible, and technology-agnostic**
 ## How to Run
 
 ```bash
-dc_shell -64 -f run_dc.tcl | tee dc.log
+dc_shell -f run_dc.tcl | tee dc.log
 ```
 
 ---
@@ -69,16 +69,10 @@ dc_shell -64 -f run_dc.tcl | tee dc.log
 
 ---
 
-## Notes
+## Note
 
 - All paths and names are parameterized using placeholders
-- Supports designs with SRAM macros, debug, and telemetry logic
-- Designed to integrate seamlessly with the Innovus TCL flow
+- Designed to integrate with the Innovus TCL flow
 
 ---
 
-## Intended Audience
-
-- ASIC / SoC design students
-- Physical design engineers
-- Anyone learning industry-standard synthesis flows
