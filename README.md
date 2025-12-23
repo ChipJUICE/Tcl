@@ -4,7 +4,7 @@
 This repository provides a **structured, end-to-end learning and execution framework** for using **Tcl scripting in VLSI and ASIC design flows**.  
 It starts from **basic Tcl programming concepts** and progresses to **industry-standard EDA automation** using **Synopsys Design Compiler** and **Cadence Innovus**.
 
-The objective of this repository is to demonstrate how **Tcl serves as the backbone of modern ASIC design automation**, enabling reproducible, scalable, and tool-driven RTL-to-GDSII flows.
+The objective of this repository is to demonstrate how **Tcl serves as the backbone of modern ASIC design automation**, enabling reproducible, scalable and tool-driven RTL-to-GDSII flows.
 
 ---
 
