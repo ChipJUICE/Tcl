@@ -120,8 +120,3 @@ innovus -64 -batch -files run_innovus_flow.tcl | tee innovus.log
 
 ---
 
-## Intended Audience
-
-- ASIC Physical Design Engineers
-- VLSI / SoC students
-- Researchers learning industrial P&R flows
