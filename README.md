@@ -110,26 +110,6 @@ GDSII (Silicon-Ready Layout)
 
 ---
 
-## 🧠 Why This Repository Matters
-
-- Demonstrates **industry-standard ASIC automation**
-- Shows **tool-level Tcl expertise**
-- Covers complete **RTL → GDSII flow**
-- Suitable for:
-  - VLSI / SoC coursework  
-  - Physical Design interviews  
-  - ASIC CAD / EDA roles  
-
----
-
-## 🎯 Intended Audience
-
-- ASIC / Physical Design Engineers  
-- VLSI and Computer Engineering students  
-- Researchers learning physical design automation  
-
----
-
 ## ⚙️ Tools Referenced
 
 - Synopsys Design Compiler  
