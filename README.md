@@ -76,10 +76,10 @@ This folder contains **Tcl scripts for RTL synthesis** using **Synopsys Design C
 This folder implements a **complete Cadence Innovus physical design flow**, taking a synthesized netlist through **floorplanning to final GDSII**.
 
 ### Key Scripts
-- `init_innovus.tcl` – Design and technology initialization  
-- `mmmc.tcl` – Multi-Mode Multi-Corner timing setup  
+- `init_innovus.tcl` – Design and technology initialization   
 - `floorplan.tcl` – Die and core definition  
-- `macro_placement.tcl` – SRAM macro placement and routing blockages  
+- `macro_placement.tcl` – SRAM macro placement and routing blockages
+- `mmmc.tcl` – Multi-Mode Multi-Corner timing setup 
 - `place_opt.tcl` – Placement and pre-CTS optimization  
 - `cts.tcl` – Clock Tree Synthesis  
 - `export_gds.tcl` – DEF and GDSII generation  
